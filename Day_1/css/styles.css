@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://i.ibb.co/YhHx8KC/safar-safarov-ko-Od-Uvf-Gr4c-unsplash.jpg");
+    
+      
+  }
+  .logo img {
+    height: 50px;
+    width: auto;
+}
+
+.logo {
+    padding-top: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 80px;
+}
+
+.menu-bg .logo {
+    padding-top: 10px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+
+  .top-nav {
+    background-color: #18222b;
+    overflow: hidden;
+  }
+  
+  .top-nav a {
+    color: aliceblue;
+    display: block;
+    padding: 20px 15px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .active {
+    background-color: white;
+  }
+  
+  .top-nav a:hover:not(.active) {
+    background-color: #34495e;
+  }
+  
+  .right {
+  float: right !important;
+  }
+
+
+
+  body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
